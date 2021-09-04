@@ -1,13 +1,13 @@
 // задача 3
-let n = 3;
-let z;
-let total = 0;
-for (let i = 0; i <= n; i += 1){
-    z = Math.round(Math.random() * (1000 - 500) + 500);
-    console.log(z);
-    total = total + z;
-}
-console.log(total);
+// let n = 3;
+// let z;
+// let total = 0;
+// for (let i = 0; i <= n; i += 1){
+//     z = Math.round(Math.random() * (1000 - 500) + 500);
+//     console.log(z);
+//     total = total + z;
+// }
+// console.log(total);
 
 // задача 2
 // let totalSpend;
@@ -112,8 +112,21 @@ console.log(total);
 //         console.log('number c not = a and b')
 // }
 
+function disemvowel(str) {
+  let strCreate = str.toLowerCase();
+  let strNew = '';
+    for (let i = 0; i < strCreate.length; i += 1) {
+      if (strCreate[i] === 'e' || strCreate[i] === 'u' || strCreate[i] === 'i' || strCreate[i] === 'o' || strCreate[i] === 'a' || strCreate[i] === 'o') {
+        continue;
+      }
+      strNew += str[i];
+    }
+  return strNew;
+}
+console.log(disemvowel('EehiMySuperStauperoOrgool'));
+console.log(disemvowel("This website is for losers LOL!"));
+console.log(disemvowel("What are you, a communist?"))
 
 
 
-
-
+console.log('hi');

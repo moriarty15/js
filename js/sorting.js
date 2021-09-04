@@ -39,6 +39,6 @@
 // console.log('Before sort: ', numbers); // [2, 1, 4, 3, 5]
 // console.log('After sort: ', numbers.sort((a, b) => a - b)); // [1, 2, 3, 4, 5]
 // console.log(`по убыванию ${numbers.sort((a, b) => b - a)}`)
-
+// console.log(numbers.sort());
 
 

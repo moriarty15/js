@@ -1,0 +1,27 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node go.js",
+    "prestart": "echo \"this is prestart\"",
+    "poststart": "echo \"end script\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moriarty15/js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moriarty15/js/issues"
+  },
+  "homepage": "https://github.com/moriarty15/js#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "shortid": "^2.2.16"
+  }
+}
